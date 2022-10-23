@@ -69,7 +69,7 @@ utterances: true
 
 # Analytics settings
 # Baidu Analytics 百度网站数据统计
-ba_track_id: "9a599c1d583e75cc5c096c44126b2de7"
+ba_track_id: "17d78d724ebb2b71719887f291d12651"
 
 # Google Analytics
 # ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
