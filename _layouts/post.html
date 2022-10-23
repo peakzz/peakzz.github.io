@@ -56,6 +56,14 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
+                {% if site.utterances %}
+                <!-- utterances 评论框 start -->
+                <div class="comment">
+                    <div id="utterances-comment" class="utterances-comment"></div>
+                </div>
+                <!-- utterances 评论框 end -->
+                {% endif %}
+
                 {% if site.netease_comment %}
                 <!-- 网易云跟帖 评论框 start -->
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
@@ -115,6 +123,19 @@ layout: default
   Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
 </script>
 <!-- 网易云跟帖JS代码 end -->
+{% endif %}
+
+{% if site.utterances %}
+    <!-- utterances跟帖JS脚本代码 start -->
+    <script src="https://utteranc.es/client.js"
+            repo="peakzz/peakzz.github.io"
+            issue-term="pathname"
+            label="Comment"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <!--  utterances跟帖JS脚本代码 end -->
 {% endif %}
 
 

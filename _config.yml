@@ -11,12 +11,12 @@ baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 # Publish posts or collection documents with a future date.
 future: true
 
-# SNS settings
+# SNS settings 页面底部跳转链接
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
+weibo_username: 
+zhihu_username: 
+github_username: peakzz
+twitter_username: 
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,18 +59,22 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+# disqus_username: 
 
 # Netease settings
 netease_comment: false
 
+# comment setting
+utterances: true
+
 # Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
+# Baidu Analytics 百度网站数据统计
+ba_track_id: "9a599c1d583e75cc5c096c44126b2de7"
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
+
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
