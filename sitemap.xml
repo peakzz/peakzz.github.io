@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://peakzz.github.io/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/about/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/archive/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/2022/04/16/RoaringBitmap%E5%AD%A6%E4%B9%A0/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/2022/04/10/MESI%E5%92%8Cvolatile%E7%9A%84%E5%85%B3%E7%B3%BB%E8%AF%A6%E8%A7%A3/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/2022/03/16/List%E5%B9%B6%E5%8F%91%E4%BF%AE%E6%94%B9%E9%97%AE%E9%A2%98%E6%8E%A2%E7%A9%B6/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/2018/01/29/hello-2015/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/archive/?tag=test1</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/archive/?tag=%E5%B9%B6%E5%8F%91%E5%AE%89%E5%85%A8</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/archive/?tag=java%E5%9F%BA%E7%A1%80</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/archive/?tag=%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/archive/?tag=test2</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/archive/?tag=test3</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://peakzz.github.io/2020/05/05/pl-chart/</loc>
+  <lastmod>2022-11-01T02:51:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
