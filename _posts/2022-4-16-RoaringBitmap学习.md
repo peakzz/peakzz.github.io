@@ -6,6 +6,7 @@ date:       2022-4-16 10:00:00
 author:     "Peakiz"
 header-img: "img/post-bg-bitmap.png"
 header-mask: 0.35
+mathjax: true  #数学公式支持 只能单行公式
 catalog: true
 tags:
    - 数据结构
@@ -16,13 +17,13 @@ tags:
 BitMap 的基本原理就是用一个bit 位来存放数据状态，适用于大规模数据，但数据状态又不是很多的情况，可以节省大量内存空间。通常被用来判断某个数据存不存在的，比如Bloom Filter等；RoaringBitmap在很多产品中都有使用，如lucene, **redis**, spark等。
 
 在Java里面一个int类型占4个字节(32bit)，假如要对于10亿个int数据进行状态存储，如果采用数组形式来存储，需要占用的空间为：
-$$
-10亿*4/1024/1024/1024=4GB
-$$
+
+<center> $ 10亿*4/1024/1024/1024=4GB $   </center>
+
 如果能够采用bitmap来存储,需要占用的理论最小空间为：
-$$
-10\_0000\_0000Bit=1\_2500\_0000byte=122070KB=119MB
-$$
+
+<center> $ 10\_0000\_0000Bit=1\_2500\_0000byte=122070KB=119MB $   </center>
+
 然而实际上，数据并非一直连续存储，bitmap的空间大小往往取决于我们想要存储的数据的最大值的位宽！比如想要存储稀疏数据[1, 10\_0000\_0000]这两个数据的状态，利用数组的话只需要两个元素即可达成（数组中存在这个元素就说明状态为存在，因此判断状态的时间复杂度为O(n)），占用空间为：4*2 = 32Byte；如果采用bitmap来存储的话就仍然需要119MB的空间大小（第n bit位为1就说明存储数值n，因此bitmap判断状态的时间复杂为O(1)）：
 
 <img src="https://raw.githubusercontent.com/peakzz/PicturesBed/master/img/2022/10/26/-170850.png" alt="image-20221026170848561" style="zoom: 40%;" />
