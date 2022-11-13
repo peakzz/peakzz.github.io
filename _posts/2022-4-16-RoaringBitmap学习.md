@@ -110,7 +110,7 @@ java中 BitSet 内部维护了一个long数组，初始只有一个long，所以
         boolean c2 = rr.contains(7); // false
 ```
 
-虽然RoaringBitmap是为32位的情况设计的，但对64位整数进行了扩展。为此提供了两个类: **Roaring64NavigableMap **和 **Roaring64Bitmap**：
+虽然RoaringBitmap是为32位的情况设计的，但对64位整数进行了扩展。为此提供了两个类: **Roaring64NavigableMap** 和 **Roaring64Bitmap**：
 
 - Roaring64NavigableMap依赖于传统的**红黑树**。键是32位整数，代表元素中最重要的32位，而树的值是32位RoaringBitmap。32位RoaringBitmap表示一组元素的最低有效位。
 - 较新的Roaring64Bitmap方法依赖**ART**数据结构来保存键/值对。键由元素的最重要的48位组成，而值是16位的Roaring容器。

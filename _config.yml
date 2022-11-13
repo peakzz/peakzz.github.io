@@ -1,7 +1,7 @@
 # Site settings
 title: Peakiz Blog
 SEOTitle: 张高峰的博客 | Peakiz Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg-coffee.png
 email: null
 description: "这里是 @Peakiz 张高峰 的个人博客 | 学习简单记录"
 keyword: "张高峰, Peakiz张高峰, Peakiz, 张高峰的博客, Peakiz Blog, 博客, 个人网站, 互联网, Web, 后端, java"
@@ -79,7 +79,7 @@ ba_track_id: "17d78d724ebb2b71719887f291d12651"
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "做一些靠谱的事情"
+sidebar-about-description: "行则将至"
 sidebar-avatar: https://peakzz.github.io/img/sidebar/aboutMe.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
