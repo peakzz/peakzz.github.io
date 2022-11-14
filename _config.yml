@@ -79,7 +79,7 @@ ba_track_id: "17d78d724ebb2b71719887f291d12651"
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "行则将至"
+sidebar-about-description: "道阻且长，行则将至"
 sidebar-avatar: https://peakzz.github.io/img/sidebar/aboutMe.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
